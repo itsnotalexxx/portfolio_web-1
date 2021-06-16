@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.nav__logo {
+}
+.nav__logo-icon {
+  margin-top: 34px;
+}
+.nav__menu {
+  display: flex;
+}
+.nav__menu-list {
+  display: flex;
+  margin-top: 46px;
+  list-style: none;
+}
+
+.nav__menu-item {
+  margin-left: 30px;
+  text-transform: uppercase;
+  line-height: 1;
+  transition: translate 0.2s ease-in;
+  -webkit-transition: translate 0.2s ease-in;
+  -moz-transition: translate 0.2s ease-in;
+  -ms-transition: translate 0.2s ease-in;
+  -o-transition: translate 0.2s ease-in;
+}
+
+.nav__menu-item:hover {
+  transform: translate(0, -3px);
+  -webkit-transform: translate(0, -3px);
+  -moz-transform: translate(0, -3px);
+  -ms-transform: translate(0, -3px);
+  -o-transform: translate(0, -3px);
+}
+
+.nav__menu-item a {
+  color: #caa892;
+}
+.nav__menu-item a:hover {
+  color: #000;
+}

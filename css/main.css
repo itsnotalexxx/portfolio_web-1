@@ -1,0 +1,13 @@
+@import "blocks/base.css";
+
+@import "blocks/nav.css";
+@import "blocks/header.css";
+@import "blocks/buttons.css";
+@import "blocks/services.css";
+@import "blocks/about__block-1.css";
+@import "blocks/about__block-2.css";
+@import "blocks/about__block-3.css";
+@import "blocks/about__block-4.css";
+@import "blocks/blog.css";
+@import "blocks/subscribe.css";
+@import "blocks/footer.css";
